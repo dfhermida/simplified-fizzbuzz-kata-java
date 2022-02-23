@@ -6,6 +6,10 @@ public class FizzBuzz {
     }
 
     public static String translate(int number) {
-        return "1";
+        if (number == 1) {
+            return "1";
+        } else {
+            return "2";
+        }
     }
 }
