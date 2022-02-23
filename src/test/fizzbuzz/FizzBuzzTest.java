@@ -16,4 +16,9 @@ public class FizzBuzzTest {
 		assertEquals("1", FizzBuzz.translate(1));
 	}
 
+	@Test
+	public void translate_should_return_string_2_if_number_2_is_passed() {
+		assertEquals("2", FizzBuzz.translate(2));
+	}
+
 }
