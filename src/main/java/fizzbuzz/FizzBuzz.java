@@ -6,7 +6,7 @@ public class FizzBuzz {
     }
 
     public static String translate(int number) {
-        if ((number == 3) || (number == 6)) {
+        if (number % 3 == 0) {
             return "Fizz";
         }
         return Integer.toString(number);
