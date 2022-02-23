@@ -28,4 +28,12 @@ public class FizzBuzzTest {
 		assertEquals("Buzz", FizzBuzz.translate(5));
 		assertEquals("Buzz", FizzBuzz.translate(10));
 	}
+
+	@Test
+	public void translate_should_return_fizzbuzz_if_number_is_multiple_of_3_and_5() {
+		assertEquals("FizzBuzz", FizzBuzz.translate(15));
+		assertEquals("FizzBuzz", FizzBuzz.translate(30));
+	}
+
+
 }
