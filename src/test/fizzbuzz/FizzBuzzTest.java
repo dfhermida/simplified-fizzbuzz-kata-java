@@ -6,8 +6,8 @@ import fizzbuzz.FizzBuzz;
 
 public class FizzBuzzTest {
 
-	@Test
-	public void get_name_should_return_fizz_buzz_game_name() {
-		assertEquals("FizzBuzz Game", FizzBuzz.getName());
-	}
+    @Test
+    public void translate_should_return_same_number_as_string() {
+        assertEquals("1", FizzBuzz.translate(1));
+    }
 }
